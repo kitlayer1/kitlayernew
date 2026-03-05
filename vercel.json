@@ -18,19 +18,5 @@
         }
       ]
     }
-  ],
-  "functions": {
-    "_qwik-city.func": {
-      "runtime": "edge@0.2.0"
-    }
-  },
-  "build": {
-    "env": {
-      "VITE_ESLINT_NO_DEV_ERRORS": "true",
-      "VITE_IGNORE_LINT": "true"
-    }
-  },
-  "installCommand": "npm install",
-  "buildCommand": "npm run build.vercel",
-  "outputDirectory": ".vercel/output/static"
+  ]
 }
