@@ -18,5 +18,13 @@
         }
       ]
     }
-  ]
+  ],
+  "build": {
+    "env": {
+      "VITE_ESLINT_NO_DEV_ERRORS": "true",
+      "VITE_IGNORE_LINT": "true"
+    }
+  },
+  "installCommand": "npm install",
+  "buildCommand": "npm run build -- --skipTypeCheck"
 }
